@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#home
+#skill
+#contact
+#about
+{
+    border: 2px solid black;
+    padding:100px;
+}
+
+li {
+    list-style: none;
+}
+ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:50px ;
+}
+
+ul div{
+    display: flex;
+    border-right: 1 px solid black;
+    align-items: center;
+}
+ul a {
+    padding: 25px;
+    align-items: center;
+}
+/* .nav items li{ */
+    /* width: 100%; */
+/* } */
+/* a :: :hover */
+/* { */
+/*      */
+/* } */
+.navbar
+{
+    display: flex;
+}
+shorturl.at/ovQ34

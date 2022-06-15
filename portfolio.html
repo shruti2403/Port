@@ -13,22 +13,25 @@
         </style>
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Project</a></li>
-            <li><a href="/">Contect me</a></li>
-            <li><a href="/">About me</a></li>
+            <div><li><a href="#home">Home</a></li></div>
+            <div><li><a href="#skill">Skill</a></li></div>
+            <div><li><a href="#contact">Contect me</a></li></div>
+            <div><li><a href="#about">About me</a></li></div>
         </ul>
     </nav>
     <div>
-        <div>
+        <div id="#home">
             <h1>Microsoft Student Technical Club</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat officia nam quasi minus ullam, exercitationem quam voluptas praesentium recusandae adipisci aperiam. Dicta ipsa ipsum ab veniam, eum consequatur labore eos.</p>
             <br><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cupiditate veniam laborum quae error amet harum voluptates autem, corrupti dolores perferendis laboriosam voluptatibus eaque hic consequuntur eveniet impedit explicabo? Aperiam praesentium quidem consequatur doloribus expedita reiciendis labore ipsum vel quas id incidunt earum, quod illum inventore eveniet! Dignissimos, neque fugit!</p>
         </div>
-        <div>
+        <div id="Skill">
+            <div id="edu"></div>
+            <div id="proj"></div>
+            <div id="skill-bar"></div>
             <div style="background-color: grey;">
                 <h2>Python</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis libero, assumenda exercitationem eaque delectus voluptates.</p>
@@ -43,7 +46,8 @@
             </div>
         </div>
 <!-- Form Starts here -->
-        <div>
+<!-- <div id="formm"> -->
+        <div id="contact">
             <form>
                 <label>Name : </label>
                 <input type="text">
@@ -55,12 +59,13 @@
                 <input type="reset">
             </form>
         </div>
-
-        <div>
+    </div>
+        <div id="about">
             <h2>Lorem, ipsum dolor.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsum quibusdam qui explicabo autem, dolores eos.</p>
             <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png?w=360"> 
         </div>
+        
     </div>
 </body>
 </html>
