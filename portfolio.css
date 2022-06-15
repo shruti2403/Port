@@ -26,6 +26,7 @@ ul
 
 ul div{
     display: flex;
+
     border-right: 1 px solid black;
     align-items: center;
 }
