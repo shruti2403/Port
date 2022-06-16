@@ -1,16 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
+/* * { */
+    /* margin: 0; */
+    /* padding: 0; */
+/* } */
+body
+{
+    background-color: rgb(238, 85, 85);
 }
-
 
 #home
 #skill
 #contact
 #about
 {
-    border: 2px solid black;
-    padding:100px;
+    
+    border: 50px solid black;
+    padding:90px;
+
 }
 
 li {
@@ -22,27 +27,33 @@ ul
     flex-direction: row;
     justify-content: space-evenly;
     height:50px ;
+    padding: 50px;
+    border: 2px;
 }
 
 ul div{
     display: flex;
-
-    border-right: 1 px solid black;
+    justify-content: space-evenly;
+    border-right: 50 px solid black;
     align-items: center;
 }
 ul a {
-    padding: 25px;
+    padding: 130px;
     align-items: center;
 }
-/* .nav items li{ */
-    /* width: 100%; */
-/* } */
-/* a :: :hover */
-/* { */
-/*      */
-/* } */
+
 .navbar
 {
     display: flex;
+    background-color: aquamarine;
 }
-shorturl.at/ovQ34
+
+.navbar > div
+{
+    background-color: blueviolet;
+    margin: 10 px;
+    padding: 20 px;
+    font-size: 30px;
+}
+
+

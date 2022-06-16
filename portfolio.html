@@ -15,19 +15,33 @@
                 text-align: center;
                 background: fixed purple ;
             }
+            .flex-container {
+            display: flex;
+            background-color: rgb(1, 13, 26);
+            }
+            
+            .flex-container > div {
+            background-color: #f0e6e6;
+            border: 500 px red;
+            border-color: aqua;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            justify-content: space-evenly;
+            }
         </style>
 </head>
 <body>
     <h1 id="myheading">Hello</h1>
-    <nav class="navbar">
-        <ul>
-            <div><li><a href="#home">Home</a></li></div>
-            <div><li><a href="#skill">Skill</a></li></div>
-            <div><li><a href="#contact">Contect me</a></li></div>
-            <div><li><a href="#about">About me</a></li></div>
-        </ul>
-    </nav>
-    <div>
+    <div class="flex-container">
+        
+            <div><a href="#home">Home</a></div>
+            <div><a href="#skill">Skill</a></div>
+            <div><a href="#contact">Contect me</a></div>
+            <div><a href="#about">About me</a></div>
+        
+    </div>
+    <div id="Diff">
         <div id="#home">
             <h1>Microsoft Student Technical Club</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat officia nam quasi minus ullam, exercitationem quam voluptas praesentium recusandae adipisci aperiam. Dicta ipsa ipsum ab veniam, eum consequatur labore eos.</p>
