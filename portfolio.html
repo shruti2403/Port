@@ -9,77 +9,87 @@
         <style>
             h1{
                 color: aqua;
+                text-align: center;
             }
             #myheading
             {
                 text-align: center;
                 background: fixed purple ;
             }
-            .flex-container {
-            display: flex;
-            background-color: rgb(1, 13, 26);
+            h2{
+                color: blue;
+                background-color: aquamarine;
             }
-            
-            .flex-container > div {
-            background-color: #f0e6e6;
-            border: 500 px red;
-            border-color: aqua;
-            margin: 10px;
-            padding: 20px;
-            font-size: 30px;
-            justify-content: space-evenly;
-            }
+            #right{    
+            float: right; 
+            } 
         </style>
 </head>
 <body>
-    <h1 id="myheading">Hello</h1>
+    <!-- <h1 id="myheading">Hello</h1> -->
     <div class="flex-container">
         
             <div><a href="#home">Home</a></div>
             <div><a href="#skill">Skill</a></div>
-            <div><a href="#contact">Contect me</a></div>
+            <div><a href="#contact">Contact me</a></div>
             <div><a href="#about">About me</a></div>
         
     </div>
-    <div id="Diff">
-        <div id="#home">
-            <h1>Microsoft Student Technical Club</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat officia nam quasi minus ullam, exercitationem quam voluptas praesentium recusandae adipisci aperiam. Dicta ipsa ipsum ab veniam, eum consequatur labore eos.</p>
-            <br><br>
+    <div class="Diff">
+        <div class ="homee " id="home">
+            <img src="https://w0.peakpx.com/wallpaper/368/441/HD-wallpaper-cute-anime-girl-anime-cat-girl-anime-girl-cartoon-cat-girl-cute-anime.jpg" 
+            alt="Description for image" width="350" height="350">
+            <h1>Shruti Verma</h1>
+            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat officia nam quasi minus ullam, exercitationem quam voluptas praesentium recusandae adipisci aperiam. Dicta ipsa ipsum ab veniam, eum consequatur labore eos.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cupiditate veniam laborum quae error amet harum voluptates autem, corrupti dolores perferendis laboriosam voluptatibus eaque hic consequuntur eveniet impedit explicabo? Aperiam praesentium quidem consequatur doloribus expedita reiciendis labore ipsum vel quas id incidunt earum, quod illum inventore eveniet! Dignissimos, neque fugit!</p>
+            <p></p>
+            <p></p>
+            <br>
         </div>
-        <div id="Skill">
+        <div class = " skilll"id="skill">
             <div id="edu"></div>
             <div id="proj"></div>
             <div id="skill-bar"></div>
-            <div style="background-color: grey;">
-                <h2>Python</h2>
+            <!-- <div style="background-color: rgb(248, 26, 26);"> -->
+                <div class="python">
+                <h2 class="py">Python</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis libero, assumenda exercitationem eaque delectus voluptates.</p>
             </div>
-            <div>
-                <h2>Android</h2>
+            <div class="Android">
+                <h2 class="and">Android</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis incidunt saepe laborum exercitationem porro odit natus dolores?</p>
             </div>
-            <div>
-                <h2>Devlopment</h2>
+            <div class="dev">
+                <h2 class="de">Devlopment</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nemo ut totam quasi dignissimos distinctio.</p>
             </div>
         </div>
 <!-- Form Starts here -->
-<!-- <div id="formm"> -->
-        <div id="contact">
+<br><br><br>
+        <div  class ="for" id="contact">
+            <h2> Contact Me Thru...</h2>
+            <br><br>
             <form>
-                <label>Name : </label>
+                <div><label>Name : </label><br>
                 <input type="text">
-                <label>Email ID : </label>
+                </div>
+                <br>
+                <div><label>Email ID : </label><br>
                 <input type="email">
-                <label>Contect No : </label>
+              </div>
+                <br>
+                <div>
+                <label>Contact No : </label><br>
                 <input type="number">
+            </div>
+                <br>
+                <div>
                 <input type="submit">
                 <input type="reset">
+            </div>
             </form>
         </div>
-    </div>
+    <br><br><br><br>
         <div id="about">
             <h2>Lorem, ipsum dolor.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsum quibusdam qui explicabo autem, dolores eos.</p>

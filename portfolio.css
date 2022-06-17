@@ -1,22 +1,25 @@
-/* * { */
-    /* margin: 0; */
-    /* padding: 0; */
-/* } */
+* {
+    margin: 0;
+    padding: 0;
+}
 body
 {
-    background-color: rgb(238, 85, 85);
+    background-color: rgb(16, 1, 1);
+    text-align: center;
+    font-size: x-large;
+    color: aliceblue;
 }
 
-#home
-#skill
-#contact
-#about
-{
-    
-    border: 50px solid black;
-    padding:90px;
-
-}
+/* #home */
+/* #skill */
+/* #contact */
+/* #about */
+/* { */
+    /* text-align: center; */
+    /* border: 50px solid black; */
+    /* padding: 5px 10px 15px 20px; */
+/*  */
+/* } */
 
 li {
     list-style: none;
@@ -40,6 +43,7 @@ ul div{
 ul a {
     padding: 130px;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .navbar
@@ -55,5 +59,148 @@ ul a {
     padding: 20 px;
     font-size: 30px;
 }
+.flex-container {
+    display: flex;
+    background-color: rgb(1, 13, 26);
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+                
+    .flex-container > div {
+    background-color: #f0e6e6;
+    border: 500 px red;
+    justify-content: space-evenly;
+    border-color: aqua;
+    margin: 10px;
+    padding: 100px;
+    font-size: 30px;
+    
+    }
 
+/* #home */
+/* { */
+    /* text-align: center; */
+    /* padding: 70px; */
+/* } */
+.Diff
+{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    /* background-color: rgb(248, 192, 119); */
+    justify-content: space-evenly;
+}
+.home
+
+{
+    padding: 100 px;
+}
+
+
+.p1
+{
+    padding: 50px;
+}
+.skilll
+{
+    display: flex;
+    flex-direction: row;
+    padding: 100 px;
+}
+h2.Android
+{
+    padding: 0%;
+}
+.python
+{
+    width: 300px;
+  height: 300px;  
+  padding: 50px;
+  outline-style: double;
+  border: 5px solid red;
+}
+.Android
+{
+    width: 300px;
+  height: 300px;  
+  padding: 50px;
+  border: 5px solid red;
+  outline-style: double;
+}
+.dev
+{
+    width: 300px;
+  height: 300px;  
+  padding: 50px;
+  outline-style: double;
+  border: 5px solid red;
+}
+input[type=text],select
+{
+    width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email],select
+{
+    width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number],select
+{
+    width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=reset] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .for
+  {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    /* background-color: rgb(189, 65, 65); */
+  }
+  img
+  {
+    border-radius: 50%;
+    opacity: 0.5;
+    align-self: right;
+  }
+  
+  
+  
+  
 
