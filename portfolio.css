@@ -267,6 +267,7 @@ input[type=submit] {
     justify-content: space-evenly;
     height: 100%;
 }
+
 .sub >div
 {
 background-color: #d24977;
@@ -279,6 +280,42 @@ padding: 10px;
 font-size: 30px;
 
 }
-  
-  
+.pa
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.pa >div
+{
+background-color: #d24977;
+border: 500 px rgb(131, 221, 27);
+justify-content: space-evenly;
+border-color: aqua;
+/* height: 100 %; */
+margin: 10px;
+padding: 10px;
+font-size: 30px;
+
+}
+.rt
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+} 
+.rt >div
+{
+background-color: #d24977;
+border: 500 px rgb(131, 221, 27);
+justify-content: space-evenly;
+border-color: aqua;
+/* height: 100 %; */
+margin: 10px;
+padding: 10px;
+font-size: 30px;
+
+}
 
